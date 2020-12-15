@@ -1,0 +1,23 @@
+@import url(./__list/places__list.css);
+
+.places {
+  width: calc(100% - 100px*2);
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+  }
+}

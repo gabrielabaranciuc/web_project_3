@@ -1,0 +1,26 @@
+@import url(./__paragraph-span-accent/place__paragraph-span-accent.css);
+
+.place__paragraph {
+    font-weight: normal;
+    margin: 0 0 27px;
+    font-size: 18px;
+    line-height: 1.63;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        margin: 0 16px 24px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
