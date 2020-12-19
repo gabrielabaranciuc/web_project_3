@@ -18,11 +18,34 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+        max-width: 470px;
+        padding-left: 18px;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+        max-width: 400px;
+        padding-left: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+        max-width: 330px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
     .place__paragraph {
         margin-bottom: 24px;
         font-size: 16px;
-        max-width: 288px;
-        padding-left: 16px;
+        max-width: 290px;
     }
 }

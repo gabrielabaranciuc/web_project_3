@@ -37,15 +37,8 @@
     .place {
         margin-bottom: 73px;
         width: calc(100vw - 96px);
-        column-gap: 32px;
+        gap: 32px;
         padding: 0;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 1023px) {
-    .place {
-        grid-template-columns: calc(100vw * (340 / 768)) calc(100vw * (352 / 768));
-        column-gap: 28px;
     }
 }
 

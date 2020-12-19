@@ -13,6 +13,20 @@
     }
 }
 
+@media screen and (min-width: 1001px) and (max-width: 1023px) {
+    .lead__subtitle {
+        width: calc(100% - 100px*2);
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1000px) {
+    .lead__subtitle {
+        width: calc(100% - 80px*2);
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .lead__subtitle {
         width: calc(100% - 74px*2);
