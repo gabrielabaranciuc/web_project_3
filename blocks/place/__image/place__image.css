@@ -1,22 +1,21 @@
 .place__image {
-    width: 460px;
     grid-area: image;
-}
-@media screen and (max-width: 1024px) {
-  .place__image {
-      width: 440px;
-  }
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+    max-width: 460px;
 }
 
 @media screen and (max-width: 768px) {
-  .place__image {
-      width: 340px;
-  }
-}
-
-@media screen and (max-width: 320px) {
     .place__image {
-        width: 100%;
+        width: 340px;
+        margin-right: 28px;
     }
 }
 
+@media screen and (max-width: 766px) {
+    .place__image {
+        width: 100vw;
+        align-self: center;
+    }
+}

@@ -1,26 +1,28 @@
-@import url(./__paragraph-span-accent/place__paragraph-span-accent.css);
-
 .place__paragraph {
+    grid-area: text;
     font-weight: normal;
-    margin: 0 0 27px;
+    margin-bottom: 27px;
     font-size: 18px;
     line-height: 1.63;
+    margin-top: 0;
 }
 
 .place__paragraph:last-of-type {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__paragraph {
-        margin-bottom: 36px;
+        margin-top: 0;
+        margin-bottom: 25px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .place__paragraph {
-        margin: 0 16px 24px;
+        margin-bottom: 24px;
         font-size: 16px;
-        line-height: 27px;
+        max-width: 288px;
+        padding-left: 16px;
     }
 }

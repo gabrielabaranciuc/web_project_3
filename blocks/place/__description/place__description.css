@@ -1,6 +1,5 @@
-.place__description {
-   grid-area: text;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-}
+ .place__description {
+     grid-area: text;
+     align-self: start;
+     width: 100%;
+ }

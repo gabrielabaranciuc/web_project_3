@@ -1,6 +1,3 @@
-@import url(./__list-text-bold/intro__list-text-bold.css);
-@import url(./__list-span-accent/intro__list-span-accent.css);
-
 .intro__list {
     list-style: none;
     padding: 0;

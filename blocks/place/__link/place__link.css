@@ -5,7 +5,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place__link {
         display: none;
     }

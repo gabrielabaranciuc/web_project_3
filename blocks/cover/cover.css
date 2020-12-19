@@ -1,41 +1,41 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__background-link/cover__background-link.css);
-
 .cover {
-  margin-top: 92px;
-  width: 100%;
-  min-height: 740px;
-  background-image: url(../../images/cover-route-66.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  margin-bottom: 92px;
+    margin-top: 92px;
+    width: 100%;
+    min-height: 740px;
+    background-image: url(../../images/cover-route-66.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
+    .cover {
+        min-height: 640px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-    margin-top: 89px;
-    margin-bottom: 88px;
-  }
+    .cover {
+        min-height: 480px;
+        margin-top: 89px;
+        margin-bottom: 88px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
-    margin-top: 65px;
-    margin-bottom: 64px;
-  }
+    .cover {
+        min-width: 320px;
+        min-height: 200px;
+        margin-top: 65px;
+        margin-bottom: 64px;
+    }
 }

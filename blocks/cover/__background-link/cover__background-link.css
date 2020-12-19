@@ -1,22 +1,22 @@
 .cover__background-link {
-  text-decoration: none;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .cover__background-link::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background: #2A2C2F;
-  opacity: 0.3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.3s;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
 }
 
 .cover__background-link:hover::after {
-  opacity: 0.8;
+    opacity: 0.8;
 }

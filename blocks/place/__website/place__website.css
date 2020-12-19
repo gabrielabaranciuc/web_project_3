@@ -1,12 +1,20 @@
 .place__website {
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     grid-area: url;
+    align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
     .place__website {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .place__website {
+        padding-left: 30px;
     }
 }
