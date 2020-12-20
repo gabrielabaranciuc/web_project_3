@@ -1,26 +1,39 @@
  @import url(./__list/places__list.css);
  .places {
      max-width: calc(100% - 100px*2);
-     max-width: 984px;
+     width: 984px;
      margin: 0 auto;
-     align-items: center;
  }
  
- @media screen and (min-width: 1024px) {
+ @media screen and (max-width: 1024px) {
      .places {
          width: calc(100% - 48px*2);
+         max-width: 928px;
      }
  }
  
  @media screen and (min-width: 768px) and ( max-width: 1023px) {
      .places {
          width: calc(100% - 24px*2);
+         max-width: 720px;
      }
  }
  
-
+ @media screen and (min-width: 541px) and (max-width: 767px) {
+     .places {
+         width: calc(100% - 20px*2);
+     }
+ }
+ 
+ @media screen and (max-width: 540px) {
+     .places {
+         width: 100%;
+         max-width: 540px;
+     }
+ }
+ 
  @media screen and (max-width: 320px) {
-    .places {
-        width: 100%;
-    }
-}
+     .places {
+         max-width: 320px;
+     }
+ }

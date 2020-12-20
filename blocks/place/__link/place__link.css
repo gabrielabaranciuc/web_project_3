@@ -3,9 +3,11 @@
     line-height: 1.22;
     letter-spacing: normal;
     color: #FFFFFF;
+    align-self: end;
+    margin-top: 12px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
     .place__link {
         display: none;
     }
