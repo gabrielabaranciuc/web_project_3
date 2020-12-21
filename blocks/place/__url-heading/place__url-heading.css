@@ -7,6 +7,12 @@
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .place__url-heading {
+        line-height: 1;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .place__url-heading {
         display: none;

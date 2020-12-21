@@ -1,51 +1,56 @@
-.place__paragraph {
-    grid-area: text;
-    font-weight: normal;
-    margin-bottom: 27px;
-    font-size: 18px;
-    line-height: 1.63;
-    margin-top: 0;
-}
-
-.place__paragraph:last-of-type {
-    margin-bottom: 0;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .place__paragraph {
-        margin-top: 0;
-        margin-bottom: 25px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .place__paragraph {
-        margin-bottom: 25px;
-        max-width: 470px;
-        padding-left: 20px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .place__paragraph {
-        margin-bottom: 25px;
-        max-width: 400px;
-        padding-left: 18px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place__paragraph {
-        margin-bottom: 25px;
-        max-width: 330px;
-        padding-left: 16px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .place__paragraph {
-        margin-bottom: 24px;
-        font-size: 16px;
-        max-width: 290px;
-    }
-}
+        .place__paragraph {
+            grid-area: text;
+            font-weight: normal;
+            margin-bottom: 27px;
+            font-size: 18px;
+            line-height: 1.63;
+            margin-top: 0;
+        }
+        
+        .place__paragraph:last-of-type {
+            margin-bottom: 0;
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .place__paragraph {
+                margin-bottom: 26px;
+            }
+        }
+        
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            .place__paragraph {
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+        }
+        
+        @media screen and (max-width: 540px) {
+            .place__paragraph {
+                margin-bottom: 25px;
+                max-width: 470px;
+                padding-left: 20px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .place__paragraph {
+                margin-bottom: 25px;
+                max-width: 400px;
+                padding-left: 18px;
+            }
+        }
+        
+        @media screen and (max-width: 425px) {
+            .place__paragraph {
+                margin-bottom: 25px;
+                max-width: 330px;
+                padding-left: 16px;
+            }
+        }
+        
+        @media screen and (max-width: 350px) {
+            .place__paragraph {
+                margin-bottom: 24px;
+                max-width: 290px;
+            }
+        }
